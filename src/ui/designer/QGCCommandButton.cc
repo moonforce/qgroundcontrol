@@ -108,6 +108,8 @@ QGCCommandButton::QGCCommandButton(QWidget *parent) :
     ui->editCommandComboBox->addItem("MAV_CMD_VIDEO_START_CAPTURE", MAV_CMD_VIDEO_START_CAPTURE);
     ui->editCommandComboBox->addItem("MAV_CMD_VIDEO_STOP_CAPTURE", MAV_CMD_VIDEO_STOP_CAPTURE);
     ui->editCommandComboBox->addItem("MAV_CMD_PANORAMA_CREATE", MAV_CMD_PANORAMA_CREATE);
+    ui->editCommandComboBox->addItem("MAV_CMD_NAV_GUIDED_ENABLE", MAV_CMD_NAV_GUIDED_ENABLE);
+    ui->editCommandComboBox->addItem("MAV_CMD_DO_FLIGHTTERMINATION", MAV_CMD_DO_FLIGHTTERMINATION);
     ui->editCommandComboBox->addItem("MAV_CMD_PAYLOAD_PREPARE_DEPLOY", MAV_CMD_PAYLOAD_PREPARE_DEPLOY);
     ui->editCommandComboBox->addItem("MAV_CMD_PAYLOAD_CONTROL_DEPLOY", MAV_CMD_PAYLOAD_CONTROL_DEPLOY);
     ui->editCommandComboBox->setEditable(true);
